@@ -3,7 +3,7 @@
 setenv HF_TOKEN ""
 
 # Set model configuration
-set model_name="Qwen/Qwen2.5-32B-Instruct" 
+set model_name="deepseek-ai/DeepSeek-R1-Distill-Llama-8B" 
 set num_pos_examples=8
 set max_instances=300
 set max_source_length=2000
