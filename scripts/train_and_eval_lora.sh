@@ -6,7 +6,7 @@ setenv PROTOCOL_BUFFERS_PYTHON_IMPLEMENTATION "python"
 setenv WANDB_DISABLED "true"
 
 # Model and LoRA configuration
-set model_name="Qwen/Qwen2.5-32B-Instruct" 
+set model_name="deepseek-ai/DeepSeek-R1-Distill-Llama-8B" 
 set num_pos_examples=8
 set seed=42
 
