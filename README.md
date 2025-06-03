@@ -1,4 +1,4 @@
-# Advancing Bias Detection in Large Language Models: A Comparative Analysis of Classification Performance, Stability, and Fairness
+# Bias Detection and Mitigation in Large Language Models
 
 ## Running evaluation
 
