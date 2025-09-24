@@ -1,4 +1,4 @@
-# Bias Detection and Mitigation in Large Language Models
+# Mitigating Label Bias in Large Language Models via Leave-One-Out Calibration
 
 ## Running evaluation
 
