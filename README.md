@@ -1,4 +1,4 @@
-# Mitigating Label Bias in Large Language Models via Leave-One-Out Calibration
+# Task-Complexity-Aware Calibration for Reducing Label Bias in Large Language Models
 
 ## Running evaluation
 
