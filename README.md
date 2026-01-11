@@ -1,4 +1,4 @@
-# Task-Complexity-Aware Calibration for Reducing Label Bias in Large Language Models
+# Task-Complexity-Aware Calibration for Mitigating Label Bias in Large Language Models
 
 ## Running evaluation
 
