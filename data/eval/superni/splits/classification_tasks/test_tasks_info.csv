@@ -1,0 +1,280 @@
+Name,# Instances,# Answer Choices,Labels Distribution,Category
+task050_multirc_answerability,5912,2,"{'No.': 0.5497293640054127, 'Yes.': 0.4502706359945873}",Answerability Classification
+task056_multirc_classify_correct_answer,1818,2,"{'Yes.': 0.7260726072607261, 'No.': 0.2739273927392739}",Answer Verification
+task065_timetravel_consistent_sentence_classification,6500,2,"{'Option 2': 0.5067692307692307, 'Option 1': 0.49323076923076925}",Coherence Classification
+task066_timetravel_binary_consistency_classification,6500,2,"{'Yes': 0.5041538461538462, 'No': 0.4958461538461538}",Coherence Classification
+task069_abductivenli_classification,6500,2,"{'1': 0.5018461538461538, '2': 0.49815384615384617}",Coherence Classification
+task070_abductivenli_incorrect_classification,6500,2,"{'2': 0.5061538461538462, '1': 0.4938461538461538}",Coherence Classification
+task073_commonsenseqa_answer_generation,1219,5,"{'B': 0.20836751435602954, 'D': 0.2059064807219032, 'C': 0.19688269073010664, 'A': 0.19606234618539786, 'E': 0.19278096800656275}",Question Answering
+task083_babi_t1_single_supporting_fact_answer_generation,992,6,"{'garden': 0.1774193548387097, 'kitchen': 0.1743951612903226, 'hallway': 0.17338709677419356, 'office': 0.1663306451612903, 'bedroom': 0.15524193548387097, 'bathroom': 0.1532258064516129}",Question Answering
+task092_check_prime_classification,6500,2,"{'No': 0.5033846153846154, 'Yes': 0.4966153846153846}",Mathematics
+task104_semeval_2019_task10_closed_vocabulary_mathematical_answer_generation,683,5,"{'D': 0.2342606149341142, 'C': 0.22108345534407028, 'E': 0.191800878477306, 'B': 0.1903367496339678, 'A': 0.16251830161054173}",Question Answering
+task106_scruples_ethical_judgment,5997,2,"{'B': 0.5019176254794063, 'A': 0.4980823745205936}",Ethics Classification
+task108_contextualabusedetection_classification,3996,2,"{'no': 0.7494994994994995, 'yes': 0.2505005005005005}",Toxic Language Detection
+task109_smsspamcollection_spamsmsdetection,1065,2,"{'ham': 0.7502347417840376, 'spam': 0.24976525821596243}",Spam Classification
+task115_help_advice_classification,5745,2,"{'no': 0.6570931244560487, 'yes': 0.3429068755439513}",Text Categorization
+task116_com2sense_commonsense_reasoning,1948,2,"{'True': 0.5, 'False': 0.5}",Commonsense Classification
+task133_winowhy_reason_plausibility_detection,2855,2,"{'Wrong': 0.5569176882661997, 'Correct': 0.44308231173380036}",Coreference Resolution
+task156_codah_classification_adversarial,2771,4,"{'Completion D': 0.2540599061710574, 'Completion C': 0.2511728617827499, 'Completion A': 0.24864669794298086, 'Completion B': 0.24612053410321183}",Text Completion
+task190_snli_classification,6500,2,"{'C': 0.6670769230769231, 'N': 0.33292307692307693}",Textual Entailment
+task195_sentiment140_classification,6500,2,"{'positive': 0.5046153846153846, 'negative': 0.49538461538461537}",Sentiment Analysis
+task196_sentiment140_answer_generation,6500,2,"{'yes': 0.5, 'no': 0.5}",Sentiment Analysis
+task197_mnli_domain_answer_generation,6500,5,"{'telephone': 0.21, 'travel': 0.2016923076923077, 'government': 0.1963076923076923, 'slate': 0.196, 'fiction': 0.196}",Text Categorization
+task198_mnli_domain_classification,6500,5,"{'5': 0.21015384615384616, '1': 0.19892307692307692, '4': 0.19753846153846155, '6': 0.19738461538461538, '9': 0.196}",Text Categorization
+task199_mnli_classification,6499,2,"{'yes': 0.6673334359132174, 'no': 0.3326665640867826}",Textual Entailment
+task200_mnli_entailment_classification,4464,3,"{'1': 0.3353494623655914, '3': 0.3349014336917563, '2': 0.32974910394265233}",Textual Entailment
+task201_mnli_neutral_classification,6500,3,"{'3': 0.33984615384615385, '1': 0.3313846153846154, '2': 0.32876923076923076}",Textual Entailment
+task202_mnli_contradiction_classification,6498,3,"{'2': 0.3391812865497076, '1': 0.3341028008618036, '3': 0.32671591258848875}",Textual Entailment
+task204_mnli_same_genre_classification,6500,2,"{'N': 0.6744615384615384, 'Y': 0.32553846153846155}",Text Categorization
+task209_stancedetection_classification,1526,3,"{'against': 0.4783748361730013, 'in favor': 0.4600262123197903, 'neutral': 0.061598951507208385}",Stance Detection
+task211_logic2text_classification,6000,2,"{'no': 0.5091666666666667, 'yes': 0.49083333333333334}",Text to Code
+task212_logic2text_classification,6498,7,"{'count': 0.18851954447522315, 'unique': 0.15297014465989536, 'majority': 0.14065866420437056, 'aggregation': 0.13742690058479531, 'superlative': 0.13311788242536166, 'comparative': 0.1306555863342567, 'ordinal': 0.11665127731609726}",Text to Code
+task213_rocstories_correct_ending_classification,6500,2,"{'b': 0.5016923076923077, 'a': 0.4983076923076923}",Text Completion
+task214_rocstories_incorrect_ending_classification,6500,2,"{'a': 0.5029230769230769, 'b': 0.4970769230769231}",Text Completion
+task220_rocstories_title_classification,6499,2,"{'a': 0.5050007693491306, 'b': 0.49499923065086937}",Title Generation
+task221_rocstories_two_choice_classification,6500,3,"{'ab': 0.3353846153846154, 'ac': 0.33507692307692305, 'bc': 0.32953846153846156}",Text Completion
+task224_scruples_anecdotes_ethical_judgment,2053,2,"{'RIGHT': 0.7501217730150999, 'WRONG': 0.24987822698490014}",Ethics Classification
+task226_english_language_answer_relevance_classification,478,2,"{'yes': 0.502092050209205, 'no': 0.497907949790795}",Answerability Classification
+task227_clariq_classification,6500,2,"{'No': 0.526, 'Yes': 0.474}",Question Understanding
+task228_arc_answer_generation_easy,5193,4,"{'C': 0.26035047178894666, 'B': 0.25515116502984786, 'A': 0.2507221259387637, 'D': 0.23377623724244176}",Question Answering
+task229_arc_answer_generation_hard,2589,4,"{'B': 0.26264967168791037, 'C': 0.2622634221707223, 'D': 0.25531093086133644, 'A': 0.2197759752800309}",Question Answering
+task230_iirc_passage_classification,6500,3,"{'2': 0.3336923076923077, '3': 0.3332307692307692, '1': 0.3330769230769231}",Question Answering
+task231_iirc_link_classification,6500,4,"{'a': 0.312, 'b': 0.2573846153846154, 'c': 0.23461538461538461, 'd': 0.196}",Question Answering
+task232_iirc_link_number_classification,6500,2,"{'b': 0.7007692307692308, 'a': 0.29923076923076924}",Answerability Classification
+task233_iirc_link_exists_classification,6499,2,"{'b': 0.6979535313125096, 'a': 0.3020464686874904}",Answerability Classification
+task241_tweetqa_classification,5995,2,"{'no': 0.5002502085070892, 'yes': 0.49974979149291077}",Answer Verification
+task242_tweetqa_classification,5994,2,"{'no': 0.5003336670003337, 'yes': 0.49966633299966634}",Answerability Classification
+task248_dream_classification,826,5,"{'logic': 0.3789346246973366, 'commonsense': 0.3789346246973366, 'matching': 0.1585956416464891, 'arithmetic': 0.05205811138014528, 'summary': 0.031476997578692496}",Question Understanding
+task268_casehold_legal_answer_generation,6499,5,"{'(A)': 0.20449299892291123, '(B)': 0.20310817048776736, '(E)': 0.19895368518233575, '(D)': 0.19879981535620864, '(C)': 0.19464533005077705}",Text Completion
+task274_overruling_legal_classification,2395,2,"{'overruling': 0.508141962421712, 'non-overruling': 0.4918580375782881}",Text Categorization
+task276_enhanced_wsc_classification,1458,6,"{'Synonym': 0.19272976680384088, 'Adverb': 0.19204389574759945, 'Tense': 0.18998628257887518, 'Number': 0.17078189300411523, 'Voice': 0.149519890260631, 'Gender': 0.10493827160493827}",Text Matching
+task279_stereoset_classification_stereotype,6490,3,"{'Unrelated': 0.47796610169491527, 'Stereotype': 0.29676425269645607, 'Anti-stereotype': 0.22526964560862867}",Stereotype Detection
+task280_stereoset_classification_stereotype_type,3708,4,"{'Profession': 0.40318230852211434, 'Race': 0.40318230852211434, 'Gender': 0.1488673139158576, 'Religion': 0.0447680690399137}",Text Categorization
+task284_imdb_classification,6499,2,"{'positive': 0.5002308047391907, 'negative': 0.4997691952608094}",Sentiment Analysis
+task285_imdb_answer_generation,6497,2,"{'no': 0.5000769585962752, 'yes': 0.4999230414037248}",Sentiment Analysis
+task286_olid_offense_judgment,5985,2,"{'OFFENSIVE': 0.5000835421888054, 'NOT': 0.49991645781119465}",Toxic Language Detection
+task290_tellmewhy_question_answerability,3482,2,"{'Answerable': 0.6975875933371626, 'Not Answerable': 0.3024124066628375}",Answerability Classification
+task291_semeval_2020_task4_commonsense_validation,5995,2,"{'second': 0.5057547956630526, 'first': 0.49424520433694746}",Commonsense Classification
+task296_storycloze_correct_end_classification,1883,2,"{'A': 0.5124800849707913, 'B': 0.4875199150292087}",Text Completion
+task297_storycloze_incorrect_end_classification,1883,2,"{'B': 0.5124800849707913, 'A': 0.4875199150292087}",Text Completion
+task298_storycloze_correct_end_classification,3769,2,"{'Yes': 0.5001326611833378, 'No': 0.49986733881666223}",Coherence Classification
+task309_race_answer_generation,6500,4,"{'B': 0.2723076923076923, 'C': 0.26446153846153847, 'D': 0.2530769230769231, 'A': 0.21015384615384616}",Question Answering
+task310_race_classification,6500,2,"{'No': 0.5038461538461538, 'Yes': 0.49615384615384617}",Question Answering
+task316_crows-pairs_classification_stereotype,3009,2,"{'Anti-stereotype': 0.5001661681621802, 'Stereotype': 0.4998338318378199}",Stereotype Detection
+task317_crows-pairs_classification_stereotype_type,1500,9,"{'race-color': 0.3426666666666667, 'gender': 0.174, 'socioeconomic': 0.114, 'nationality': 0.106, 'religion': 0.06866666666666667, 'age': 0.058, 'sexual-orientation': 0.05533333333333333, 'physical-appearance': 0.042, 'disability': 0.03933333333333333}",Stereotype Detection
+task318_stereoset_classification_gender,723,3,"{'unrelated': 0.3333333333333333, 'stereotype': 0.3333333333333333, 'anti-stereotype': 0.3333333333333333}",Stereotype Detection
+task319_stereoset_classification_profession,2476,3,"{'unrelated': 0.33360258481421645, 'stereotype': 0.3331987075928918, 'anti-stereotype': 0.3331987075928918}",Stereotype Detection
+task320_stereoset_classification_race,2925,3,"{'anti-stereotype': 0.3333333333333333, 'unrelated': 0.3333333333333333, 'stereotype': 0.3333333333333333}",Stereotype Detection
+task322_jigsaw_classification_threat,6385,2,"{'Threat': 0.5028974158183241, 'Non-threat': 0.4971025841816758}",Toxic Language Detection
+task323_jigsaw_classification_sexually_explicit,6369,2,"{'Sexual-explicit': 0.5010205683780813, 'Non-sexual-explicit': 0.49897943162191866}",Toxic Language Detection
+task325_jigsaw_classification_identity_attack,6356,2,"{'Identity-attack': 0.5015733165512901, 'Non-identity-attack': 0.4984266834487099}",Toxic Language Detection
+task326_jigsaw_classification_obscene,6384,2,"{'Obscene': 0.5031328320802005, 'Non-obscene': 0.4968671679197995}",Toxic Language Detection
+task327_jigsaw_classification_toxic,5565,2,"{'Toxic': 0.564240790655885, 'Non-toxic': 0.435759209344115}",Toxic Language Detection
+task328_jigsaw_classification_insult,6213,2,"{'Insult': 0.5050700144857557, 'Non-insult': 0.49492998551424433}",Toxic Language Detection
+task329_gap_classification,4449,3,"{'B': 0.4457181389076197, 'A': 0.44436952124072826, 'Neither': 0.10991233985165205}",Coreference Resolution
+task333_hateeval_classification_hate_en,5994,2,"{'Hateful': 0.5, 'Non-hateful': 0.5}",Toxic Language Detection
+task335_hateeval_classification_aggresive_en,2997,2,"{'Aggresive': 0.5001668335001669, 'Non-aggresive': 0.49983316649983317}",Toxic Language Detection
+task337_hateeval_classification_individual_en,2997,2,"{'Generic': 0.5001668335001669, 'Individual': 0.49983316649983317}",Toxic Language Detection
+task340_winomt_classification_gender_pro,1576,2,"{'Female': 0.5, 'Male': 0.5}",Gender Classification
+task341_winomt_classification_gender_anti,1577,2,"{'Male': 0.5009511731135067, 'Female': 0.4990488268864933}",Gender Classification
+task346_hybridqa_classification,6497,2,"{'True': 0.5002308757888256, 'False': 0.49976912421117436}",Pos Tagging
+task349_squad2.0_answerable_unanswerable_question_classification,6498,2,"{'True': 0.5, 'False': 0.5}",Answerability Classification
+task350_winomt_classification_gender_identifiability_pro,3158,2,"{'Unidentifiable': 0.5, 'Identifiable': 0.5}",Gender Classification
+task351_winomt_classification_gender_identifiability_anti,3154,2,"{'Unidentifiable': 0.5, 'Identifiable': 0.5}",Gender Classification
+task353_casino_classification_negotiation_elicit_pref,750,2,"{'No': 0.5, 'Yes': 0.5}",Negotiation Strategy Detection
+task355_casino_classification_negotiation_other_need,814,2,"{'No': 0.5, 'Yes': 0.5}",Negotiation Strategy Detection
+task356_casino_classification_negotiation_self_need,1924,2,"{'Yes': 0.5, 'No': 0.5}",Negotiation Strategy Detection
+task357_casino_classification_negotiation_small_talk,2076,2,"{'No': 0.5, 'Yes': 0.5}",Negotiation Strategy Detection
+task359_casino_classification_negotiation_vouch_fair,874,2,"{'No': 0.5, 'Yes': 0.5}",Negotiation Strategy Detection
+task361_spolin_yesand_prompt_response_classification,6430,2,"{'yes': 0.5, 'no': 0.5}",Dialogue Generation
+task362_spolin_yesand_prompt_response_sub_classification,6395,2,"{'Response 2': 0.5041438623924941, 'Response 1': 0.49585613760750585}",Dialogue Act Recognition
+task363_sst2_polarity_classification,6495,2,"{'POS': 0.5321016166281756, 'NEG': 0.4678983833718245}",Sentiment Analysis
+task375_classify_type_of_sentence_in_debate,400,4,"{'Value': 0.42, 'Fact': 0.3975, 'Policy': 0.1, 'Testimony': 0.0825}",Text Categorization
+task379_agnews_topic_classification,6497,4,"{'Business': 0.2564260427889795, 'Sports': 0.2518085270124673, 'Sci/Tech': 0.24965368631676157, 'World': 0.2421117438817916}",Text Categorization
+task382_hybridqa_answer_generation,6496,40,"{'NN': 0.19519704433497537, 'DT': 0.13469827586206898, 'IN': 0.13454433497536947, 'NNP': 0.11530172413793104, 'VBD': 0.058497536945812806, 'WP': 0.049722906403940885, 'JJ': 0.04818349753694581, 'VBZ': 0.04710591133004926, 'CD': 0.03894704433497537, 'VBN': 0.03417487684729064, 'WDT': 0.02432266009852217, 'NNS': 0.023091133004926108, 'WRB': 0.01708743842364532, ',': 0.008928571428571428, 'RB': 0.008466748768472906, 'TO': 0.007850985221674878, 'CC': 0.00769704433497537, 'VBP': 0.00646551724137931, 'JJS': 0.005849753694581281, 'VBG': 0.005541871921182266, 'VB': 0.004310344827586207, 'POS': 0.004310344827586207, 'WP$': 0.0041564039408867, 'PRP$': 0.003232758620689655, 'NNPS': 0.002309113300492611, 'RBS': 0.0018472906403940886, 'PRP': 0.0013854679802955665, ')': 0.0012315270935960591, '(': 0.0010775862068965517, 'JJR': 0.0010775862068965517, 'MD': 0.000769704433497537, '``': 0.0006157635467980296, ""''"": 0.00046182266009852215, '.': 0.0003078817733990148, 'RP': 0.0003078817733990148, ':': 0.0003078817733990148, 'RBR': 0.0001539408866995074, '$': 0.0001539408866995074, '#': 0.0001539408866995074, 'PDT': 0.0001539408866995074}",Pos Tagging
+task383_matres_classification,1917,2,"{'No': 0.5028690662493479, 'Yes': 0.49713093375065204}",Misc.
+task384_socialiqa_question_classification,4875,2,"{'True': 0.6666666666666666, 'False': 0.3333333333333333}",Question Understanding
+task386_semeval_2018_task3_irony_detection,1825,2,"{'not': 0.547945205479452, 'ironic': 0.4520547945205479}",Irony Detection
+task387_semeval_2018_task3_irony_classification,1029,3,"{'polarity': 0.4956268221574344, 'situational': 0.30612244897959184, 'other': 0.19825072886297376}",Irony Detection
+task391_causal_relationship,2283,2,"{'not plausible': 0.5238720981165134, 'plausible': 0.47612790188348664}",Cause Effect Classification
+task392_inverse_causal_relationship,2603,2,"{'not plausible': 0.5824049174029965, 'plausible': 0.41759508259700345}",Cause Effect Classification
+task397_semeval_2018_task1_tweet_anger_detection,2602,2,"{'Angry': 0.579554189085319, 'Not angry': 0.42044581091468103}",Sentiment Analysis
+task398_semeval_2018_task1_tweet_joy_detection,1795,2,"{'Happy': 0.5565459610027855, 'Not happy': 0.4434540389972145}",Sentiment Analysis
+task399_semeval_2018_task1_tweet_sadness_detection,2899,2,"{'Sad': 0.6002069679199724, 'Not sad': 0.3997930320800276}",Sentiment Analysis
+task400_paws_paraphrase_classification,6486,2,"{'Not paraphrase': 0.5605920444033302, 'Paraphrase': 0.43940795559666973}",Text Matching
+task420_persent_document_sentiment_classification,3354,3,"{'Positive': 0.5241502683363148, 'Neutral': 0.37119856887298747, 'Negative': 0.10465116279069768}",Sentiment Analysis
+task421_persent_sentence_sentiment_classification,6491,3,"{'Neutral': 0.4643352334000924, 'Positive': 0.43768294561700816, 'Negative': 0.0979818209828994}",Sentiment Analysis
+task456_matres_intention_classification,2656,2,"{'Yes': 0.5011295180722891, 'No': 0.49887048192771083}",Information Extraction
+task457_matres_conditional_classification,629,2,"{'No': 0.505564387917329, 'Yes': 0.4944356120826709}",Word Semantics
+task458_matres_negation_classification,773,2,"{'No': 0.5148771021992238, 'Yes': 0.4851228978007762}",Word Semantics
+task462_qasper_classification,1337,3,"{'Abstractive': 0.39341810022438295, 'Extractive': 0.33507853403141363, 'Yes-no': 0.2715033657442034}",Question Understanding
+task472_haspart_classification,5903,2,"{'no': 0.5060138912417415, 'yes': 0.4939861087582585}",Entity Relation Classification
+task475_yelp_polarity_classification,6500,2,"{'POSITIVE': 0.502, 'NEGATIVE': 0.498}",Sentiment Analysis
+task476_cls_english_books_classification,1985,2,"{'POS': 0.5032745591939547, 'NEG': 0.49672544080604536}",Sentiment Analysis
+task477_cls_english_dvd_classification,1964,2,"{'POS': 0.5076374745417516, 'NEG': 0.4923625254582485}",Sentiment Analysis
+task478_cls_english_music_classification,1970,2,"{'POS': 0.5060913705583756, 'NEG': 0.4939086294416244}",Sentiment Analysis
+task493_review_polarity_classification,6499,2,"{'Negative': 0.5206954916140945, 'Positive': 0.47930450838590555}",Sentiment Analysis
+task494_review_polarity_answer_generation,5016,2,"{'False': 0.6477272727272727, 'True': 0.3522727272727273}",Sentiment Analysis
+task495_semeval_headline_classification,6495,2,"{'Not Funny': 0.5123941493456505, 'Funny': 0.4876058506543495}",Text Categorization
+task496_semeval_answer_generation,4795,2,"{'No': 0.6767466110531803, 'Yes': 0.3232533889468196}",Text Categorization
+task498_scruples_anecdotes_whoiswrong_classification,3644,4,"{'NOBODY': 0.25, 'OTHER': 0.25, 'EVERYBODY': 0.25, 'AUTHOR': 0.25}",Ethics Classification
+task502_scruples_anecdotes_whoiswrong_verification,6500,2,"{'no': 0.5029230769230769, 'yes': 0.4970769230769231}",Ethics Classification
+task503_scruples_anecdotes_isanswerable,597,2,"{'answerable': 0.7504187604690117, 'not answerable': 0.24958123953098826}",Ethics Classification
+task508_scruples_dilemmas_more_ethical_isidentifiable,6498,2,"{'no': 0.5018467220683287, 'yes': 0.4981532779316713}",Ethics Classification
+task512_twitter_emotion_classification,3429,6,"{'anger': 0.1668124817731117, 'joy': 0.1668124817731117, 'surprise': 0.1668124817731117, 'fear': 0.16652085156022164, 'love': 0.16652085156022164, 'sadness': 0.16652085156022164}",Sentiment Analysis
+task517_emo_classify_emotion_of_dialogue,6478,4,"{'happy': 0.2505402902130287, 'other': 0.25023155294844085, 'angry': 0.25023155294844085, 'sad': 0.24899660389008954}",Sentiment Analysis
+task520_aquamuse_answer_given_in_passage,1000,2,"{'True': 0.526, 'False': 0.474}",Answerability Classification
+task521_trivia_question_classification,6492,5,"{'Science': 0.2002464571780653, 'Literature': 0.2000924214417745, 'History': 0.19993838570548367, 'Fine Arts': 0.19993838570548367, 'Social Science': 0.19978434996919286}",Text Categorization
+task564_discofuse_classification,1000,13,"{'SINGLE_CONN_INNER_ANAPHORA': 0.084, 'SINGLE_VP_COORD': 0.082, 'SINGLE_RELATIVE': 0.08, 'SINGLE_S_COORD': 0.08, 'PAIR_CONN_ANAPHORA': 0.08, 'SINGLE_CONN_START': 0.079, 'SINGLE_APPOSITION': 0.077, 'SINGLE_CONN_INNER': 0.075, 'SINGLE_CATAPHORA': 0.074, 'PAIR_CONN': 0.074, 'SINGLE_S_COORD_ANAPHORA': 0.073, 'PAIR_ANAPHORA': 0.072, 'PAIR_NONE': 0.07}",Discourse Relation Classification
+task566_circa_classification,5476,2,"{'Yes': 0.7132943754565376, 'No': 0.2867056245434624}",Text Matching
+task573_air_dialogue_classification,2635,4,"{'book': 0.3214421252371917, 'no_flight': 0.3214421252371917, 'no_reservation': 0.3214421252371917, 'cancel': 0.03567362428842505}",Intent Identification
+task575_air_dialogue_classification,3954,2,"{'agent': 0.5, 'customer': 0.5}",Speaker Identification
+task577_curiosity_dialogs_classification,6011,2,"{'user': 0.5000831808351356, 'assistant': 0.4999168191648644}",Speaker Identification
+task579_socialiqa_classification,6500,2,"{'No': 0.5, 'Yes': 0.5}",Answer Verification
+task580_socialiqa_answer_generation,6500,3,"{'A': 0.3426153846153846, 'B': 0.32953846153846156, 'C': 0.32784615384615384}",Question Answering
+task585_preposition_classification,926,8,"{'of': 0.28833693304535635, 'for': 0.28833693304535635, 'in': 0.22570194384449244, 'on': 0.05075593952483801, 'from': 0.04967602591792657, 'about': 0.038876889848812095, 'with': 0.03779697624190065, 'at': 0.020518358531317494}",Preposition Prediction
+task586_amazonfood_polarity_classification,6500,2,"{'Positive': 0.5153846153846153, 'Negative': 0.4846153846153846}",Sentiment Analysis
+task587_amazonfood_polarity_correction_classification,6370,2,"{'False': 0.5048665620094192, 'True': 0.49513343799058085}",Sentiment Analysis
+task588_amazonfood_rating_classification,6499,5,"{'5': 0.39406062471149406, '1': 0.20418525927065703, '3': 0.19002923526696414, '2': 0.12048007385751654, '4': 0.09124480689336821}",Sentiment Analysis
+task590_amazonfood_summary_correction_classification,6392,2,"{'False': 0.5064142678347935, 'True': 0.4935857321652065}",Text Matching
+task607_sbic_intentional_offense_binary_classification,1731,2,"{'Yes': 0.5002888503755055, 'No': 0.49971114962449453}",Toxic Language Detection
+task608_sbic_sexual_offense_binary_classification,3716,2,"{'No': 0.5, 'Yes': 0.5}",Toxic Language Detection
+task609_sbic_potentially_offense_binary_classification,2946,2,"{'Yes': 0.5003394433129668, 'No': 0.49966055668703324}",Toxic Language Detection
+task616_cola_classification,6500,2,"{'acceptable': 0.6947692307692308, 'unacceptable': 0.30523076923076925}",Text Quality Evaluation
+task621_ohsumed_yes_no_numerical_answer_generation,1135,2,"{'Yes': 0.7568281938325991, 'No': 0.2431718061674009}",Information Extraction
+task623_ohsumed_yes_no_answer_generation,400,2,"{'Yes': 0.5, 'No': 0.5}",Keyword Tagging
+task629_dbpedia_14_classification,3000,14,"{'7': 0.079, '12': 0.07666666666666666, '13': 0.07566666666666666, '11': 0.07533333333333334, '14': 0.073, '6': 0.07133333333333333, '5': 0.07066666666666667, '1': 0.07066666666666667, '8': 0.069, '3': 0.06866666666666667, '2': 0.06866666666666667, '9': 0.06766666666666667, '10': 0.06733333333333333, '4': 0.06633333333333333}",Text Categorization
+task630_dbpedia_14_classification,1000,2,"{'No': 0.5, 'Yes': 0.5}",Text Matching
+task632_dbpedia_14_classification,2000,2,"{'No': 0.5, 'Yes': 0.5}",Text Categorization
+task633_dbpedia_14_answer_generation,4899,5,"{'2': 0.22820983874260053, '3': 0.21779955092876097, '4': 0.21249234537660747, '1': 0.205348030210247, '5': 0.13615023474178403}",Text Categorization
+task638_multi_woz_classification,4580,2,"{'Answer: (B) System': 0.5580786026200873, 'Answer: (A) User': 0.44192139737991265}",Speaker Identification
+task673_google_wellformed_query_classification,5318,2,"{'Bad': 0.5003760812335465, 'Good': 0.49962391876645357}",Question Understanding
+task679_hope_edi_english_text_classification,3837,2,"{'Not Hope Speech': 0.5074276778733385, 'Hope Speech': 0.49257232212666147}",Text Categorization
+task681_hope_edi_malayalam_text_classification,1969,3,"{'Not Hope Speech': 0.3484002031488065, 'Hope Speech': 0.345860843067547, 'Not in Expected Language': 0.3057389537836465}",Text Categorization
+task682_online_privacy_policy_text_classification,661,7,"{'User Choice/Control': 0.24659606656580937, 'First Party Collection/Use': 0.24659606656580937, 'Third Party Sharing/Collection': 0.24659606656580937, 'Data Retention': 0.0907715582450832, 'User Access, Edit and Deletion': 0.08623298033282904, 'Policy Change': 0.06959152798789713, 'Data Security': 0.01361573373676248}",Text Categorization
+task683_online_privacy_policy_text_purpose_answer_generation,3079,13,"{'Unspecified': 0.2530042221500487, 'Basic service/feature': 0.11172458590451445, 'Additional service/feature': 0.10782721662877558, 'Advertising': 0.10685287430984086, 'Marketing': 0.09516076648262423, 'Analytics/Research': 0.08769080870412471, 'Not Specified': 0.0597596622279961, 'Personalization/Customization': 0.050016239038648914, 'Other': 0.04157193894121468, 'Service Operation and Security': 0.03247807729782397, 'Legal requirement': 0.02240987333549854, 'Service operation and security': 0.01981162715167262, 'Merger/Acquisition': 0.011692107827216629}",Information Extraction
+task738_perspectrum_classification,6401,2,"{'support': 0.5000781127948758, 'undermine': 0.4999218872051242}",Textual Entailment
+task744_eurlex_classification,975,3,"{'Decision': 0.37743589743589745, 'Regulation': 0.37743589743589745, 'Directive': 0.24512820512820513}",Text Categorization
+task746_yelp_restaurant_review_classification,1036,2,"{'positive': 0.525096525096525, 'negative': 0.4749034749034749}",Sentiment Analysis
+task767_craigslist_bargains_classification,1200,6,"{'bike': 0.16666666666666666, 'electronics': 0.16666666666666666, 'housing': 0.16666666666666666, 'car': 0.16666666666666666, 'furniture': 0.16666666666666666, 'phone': 0.16666666666666666}",Text Categorization
+task827_copa_commonsense_reasoning,996,2,"{'1': 0.5, '2': 0.5}",Cause Effect Classification
+task828_copa_commonsense_cause_effect,996,2,"{'cause': 0.5, 'effect': 0.5}",Cause Effect Classification
+task834_mathdataset_classification,3983,5,"{'algebra': 0.20085362791865427, 'numbers': 0.20085362791865427, 'probability': 0.20060256088375597, 'arithmetic': 0.20060256088375597, 'measurement': 0.19708762239517952}",Question Understanding
+task843_financial_phrasebank_classification,1805,3,"{'negative': 0.33407202216066484, 'positive': 0.3335180055401662, 'neutral': 0.33240997229916897}",Sentiment Analysis
+task844_financial_phrasebank_classification,4837,2,"{'false': 0.5098201364482117, 'true': 0.4901798635517883}",Sentiment Analysis
+task846_pubmedqa_classification,6500,2,"{'yes': 0.5, 'no': 0.5}",Answer Verification
+task848_pubmedqa_classification,6499,2,"{'0': 0.5000769349130636, '1': 0.49992306508693646}",Intent Identification
+task875_emotion_classification,3229,6,"{'love': 0.17002167853824712, 'joy': 0.1678538247135336, 'sadness': 0.1663053576958811, 'surprise': 0.1663053576958811, 'anger': 0.16599566429235058, 'fear': 0.16351811706410654}",Sentiment Analysis
+task879_schema_guided_dstc8_classification,2305,2,"{'No': 0.500650759219089, 'Yes': 0.4993492407809111}",Dialogue Act Recognition
+task880_schema_guided_dstc8_classification,1341,5,"{'INFORM_INTENT': 0.20059656972408652, 'REQUEST': 0.20059656972408652, 'OFFER': 0.19985085756897839, 'INFORM': 0.19985085756897839, 'REQUEST_ALTS': 0.19910514541387025}",Dialogue Act Recognition
+task881_schema_guided_dstc8_classification,1160,5,"{'Media': 0.20086206896551725, 'RideSharing': 0.2, 'Flights': 0.2, 'Buses': 0.2, 'Travel': 0.19913793103448277}",Text Categorization
+task888_reviews_classification,500,2,"{'negative': 0.5, 'positive': 0.5}",Sentiment Analysis
+task889_goemotions_classification,500,5,"{'anger': 0.2, 'sadness': 0.2, 'joy': 0.2, 'confusion': 0.2, 'neutral': 0.2}",Sentiment Analysis
+task902_deceptive_opinion_spam_classification,1590,2,"{'positive': 0.5012578616352201, 'negative': 0.4987421383647799}",Sentiment Analysis
+task903_deceptive_opinion_spam_classification,1590,2,"{'true': 0.510062893081761, 'false': 0.489937106918239}",Sentiment Analysis
+task904_hate_speech_offensive_classification,6500,3,"{'Offensive': 0.39015384615384613, 'Neither': 0.39, 'Hate Speech': 0.21984615384615386}",Toxic Language Detection
+task905_hate_speech_offensive_classification,6500,2,"{'false': 0.5001538461538462, 'true': 0.49984615384615383}",Toxic Language Detection
+task909_dialogre_prevalent_speakers,433,4,"{'1': 0.4503464203233256, '2': 0.3972286374133949, '3': 0.10161662817551963, '4': 0.050808314087759814}",Speaker Identification
+task923_event2mind_classifier,4499,3,"{'Positive': 0.33340742387197153, 'Unknown': 0.33340742387197153, 'Negative': 0.3331851522560569}",Sentiment Analysis
+task925_coached_conv_pref_classifier,498,2,"{'ASSISTANT': 0.6485943775100401, 'USER': 0.3514056224899598}",Speaker Identification
+task929_products_reviews_classification,6490,2,"{'Good Review': 0.5001540832049307, 'Bad review': 0.49984591679506934}",Sentiment Analysis
+task935_defeasible_nli_atomic_classification,6500,2,"{'strengthener': 0.5, 'weakener': 0.5}",Textual Entailment
+task936_defeasible_nli_snli_classification,6500,2,"{'weakener': 0.5, 'strengthener': 0.5}",Textual Entailment
+task937_defeasible_nli_social_classification,6499,2,"{'strengthener': 0.5000769349130636, 'weakener': 0.49992306508693646}",Textual Entailment
+task1135_xcsr_en_commonsense_mc_classification,993,5,"{'D': 0.20745216515609266, 'B': 0.2014098690835851, 'A': 0.19939577039274925, 'E': 0.1973816717019134, 'C': 0.19436052366565962}",Question Answering
+task1162_coda19_title_classification,6077,2,"{'True': 0.501069606713839, 'False': 0.49893039328616096}",Text Matching
+task1163_coda19_section_classification,5200,4,"{'method': 0.25, 'purpose': 0.25, 'background': 0.25, 'finding': 0.25}",Section Classification
+task1164_coda19_section_correction_classification,6500,2,"{'True': 0.6363076923076924, 'False': 0.3636923076923077}",Section Classification
+task1186_nne_hrngo_classification,3169,2,"{'1': 0.5042600189334174, '0': 0.4957399810665825}",Text Quality Evaluation
+task1187_politifact_classification,6498,2,"{'True': 0.5383194829178208, 'False': 0.4616805170821791}",Text Categorization
+task1196_atomic_classification_oeffect,6493,2,"{'Yes': 0.5533651624826736, 'No': 0.44663483751732636}",Commonsense Classification
+task1197_atomic_classification_oreact,6493,2,"{'Yes': 0.5622978592330202, 'No': 0.43770214076697983}",Commonsense Classification
+task1198_atomic_classification_owant,6493,2,"{'Yes': 0.5821654089018944, 'No': 0.41783459109810567}",Commonsense Classification
+task1199_atomic_classification_xattr,6494,2,"{'Yes': 0.6178010471204188, 'No': 0.38219895287958117}",Commonsense Classification
+task1200_atomic_classification_xeffect,6493,2,"{'Yes': 0.6283690127829971, 'No': 0.37163098721700294}",Commonsense Classification
+task1201_atomic_classification_xintent,6494,2,"{'Yes': 0.6147212811826301, 'No': 0.38527871881736986}",Commonsense Classification
+task1202_atomic_classification_xneed,6493,2,"{'Yes': 0.6254427845371939, 'No': 0.3745572154628061}",Commonsense Classification
+task1203_atomic_classification_xreact,6494,2,"{'Yes': 0.6199568832768709, 'No': 0.380043116723129}",Commonsense Classification
+task1204_atomic_classification_hinderedby,6491,2,"{'Yes': 0.5119396086889539, 'No': 0.48806039131104606}",Commonsense Classification
+task1205_atomic_classification_isafter,6493,2,"{'Yes': 0.5245649160634529, 'No': 0.47543508393654704}",Commonsense Classification
+task1206_atomic_classification_isbefore,6494,2,"{'Yes': 0.5252540806898676, 'No': 0.47474591931013244}",Commonsense Classification
+task1207_atomic_classification_atlocation,6493,2,"{'Yes': 0.526413060218697, 'No': 0.47358693978130295}",Commonsense Classification
+task1208_atomic_classification_xreason,732,2,"{'No': 0.5491803278688525, 'Yes': 0.45081967213114754}",Commonsense Classification
+task1209_atomic_classification_objectuse,6494,2,"{'Yes': 0.5418848167539267, 'No': 0.4581151832460733}",Commonsense Classification
+task1210_atomic_classification_madeupof,5299,2,"{'Yes': 0.5278354406491791, 'No': 0.4721645593508209}",Commonsense Classification
+task1211_atomic_classification_hassubevent,6494,2,"{'Yes': 0.5449645826917154, 'No': 0.45503541730828456}",Commonsense Classification
+task1212_atomic_classification_hasproperty,6494,2,"{'Yes': 0.543424699722821, 'No': 0.4565753002771789}",Commonsense Classification
+task1213_atomic_classification_desires,5199,2,"{'Yes': 0.5189459511444509, 'No': 0.48105404885554914}",Commonsense Classification
+task1214_atomic_classification_xwant,6493,2,"{'Yes': 0.6323733251193593, 'No': 0.3676266748806407}",Commonsense Classification
+task1215_atomic_classification_capableof,6492,2,"{'Yes': 0.5251078250154035, 'No': 0.4748921749845964}",Commonsense Classification
+task1216_atomic_classification_causes,699,2,"{'Yes': 0.5321888412017167, 'No': 0.4678111587982833}",Commonsense Classification
+task1283_hrngo_quality_classification,3975,2,"{'1': 0.5031446540880503, '0': 0.4968553459119497}",Text Quality Evaluation
+task1284_hrngo_informativeness_classification,1777,2,"{'1': 0.5064715813168261, '0': 0.4935284186831739}",Text Quality Evaluation
+task1289_trec_classification,5376,6,"{'Entity': 0.23139880952380953, 'Person': 0.22581845238095238, 'Description': 0.21428571428571427, 'Quantity': 0.15941220238095238, 'Location': 0.15308779761904762, 'Abbreviation': 0.015997023809523808}",Question Understanding
+task1308_amazonreview_category_classification,6500,2,"{'False': 0.5, 'True': 0.5}",Text Categorization
+task1309_amazonreview_summary_classification,6500,2,"{'False': 0.5, 'True': 0.5}",Summarization
+task1310_amazonreview_rating_classification,6500,5,"{'1': 0.2, '4': 0.2, '2': 0.2, '3': 0.2, '5': 0.2}",Sentiment Analysis
+task1311_amazonreview_rating_classification,4550,2,"{'True': 0.7142857142857143, 'False': 0.2857142857142857}",Sentiment Analysis
+task1312_amazonreview_polarity_classification,6500,2,"{'negative': 0.5, 'positive': 0.5}",Sentiment Analysis
+task1313_amazonreview_polarity_classification,3022,2,"{'True': 0.5, 'False': 0.5}",Sentiment Analysis
+task1328_qa_zre_relation_generation_from_question,5840,24,"{'occupation': 0.04811643835616438, 'spouse': 0.047773972602739724, 'award received': 0.046917808219178084, 'date of death': 0.046746575342465756, 'service entry': 0.04589041095890411, 'military branch': 0.04589041095890411, 'production company': 0.04554794520547945, 'original network': 0.045376712328767124, 'educated at': 0.04434931506849315, 'director': 0.04434931506849315, 'series': 0.04434931506849315, 'sex or gender': 0.043835616438356165, 'conflict': 0.04366438356164384, 'parent company': 0.04332191780821918, 'narrative location': 0.04263698630136986, 'constellation': 0.04246575342465753, 'residence': 0.04160958904109589, 'point in time': 0.04058219178082192, 'based on': 0.04023972602739726, 'medical condition': 0.039897260273972605, 'drafted by': 0.0386986301369863, 'collection': 0.030308219178082192, 'convicted of': 0.028767123287671233, 'standards body': 0.018664383561643835}",Question Understanding
+task1336_peixian_equity_evaluation_corpus_gender_classifier,6500,2,"{'male': 0.5, 'female': 0.5}",Gender Classification
+task1338_peixian_equity_evaluation_corpus_sentiment_classifier,6000,4,"{'anger': 0.25, 'sadness': 0.25, 'joy': 0.25, 'fear': 0.25}",Sentiment Analysis
+task1344_glue_entailment_classification,2480,2,"{'1': 0.5020161290322581, '0': 0.49798387096774194}",Textual Entailment
+task1346_glue_cola_grammatical_correctness_classification,5035,2,"{'1': 0.5000993048659385, '0': 0.49990069513406155}",Grammar Error Detection
+task1347_glue_sts-b_similarity_classification,3000,6,"{'2': 0.16666666666666666, '4': 0.16666666666666666, '1': 0.16666666666666666, '0': 0.16666666666666666, '5': 0.16666666666666666, '3': 0.16666666666666666}",Text Matching
+task1354_sent_comp_classification,999,2,"{'match': 0.5005005005005005, 'no': 0.4994994994994995}",Text Matching
+task1361_movierationales_classification,1995,2,"{'P': 0.5007518796992482, 'N': 0.4992481203007519}",Sentiment Analysis
+task1384_deal_or_no_dialog_classification,4209,2,"{'Yes': 0.7500593965312425, 'No': 0.24994060346875743}",Dialogue State Tracking
+task1391_winogrande_easy_answer_generation,6491,2,"{'A': 0.5002310892004314, 'B': 0.49976891079956864}",Coreference Resolution
+task1393_superglue_copa_text_completion,496,2,"{'A': 0.5, 'B': 0.5}",Cause Effect Classification
+task1408_dart_similarity_classification,5680,2,"{'SIMILAR': 0.5721830985915493, 'DISSIMILAR': 0.4278169014084507}",Text Matching
+task1418_bless_semantic_relation_classification,2345,6,"{'event': 0.17057569296375266, 'random': 0.17057569296375266, 'attri': 0.17057569296375266, 'mero': 0.17057569296375266, 'coord': 0.17057569296375266, 'hyper': 0.14712153518123666}",Word Relation Classification
+task1429_evalution_semantic_relation_classification,793,9,"{'Antonym': 0.12610340479192939, 'PartOf': 0.12610340479192939, 'HasProperty': 0.12484237074401008, 'MadeOf': 0.12484237074401008, 'IsA': 0.1235813366960908, 'HasA': 0.11979823455233292, 'Synonym': 0.11475409836065574, 'Entails': 0.1021437578814628, 'MemberOf': 0.03783102143757881}",Word Relation Classification
+task1431_head_qa_answer_generation,2529,5,"{'2': 0.2210359826018189, '4': 0.2111506524317912, '3': 0.20877817319098457, '1': 0.20521945432977462, '5': 0.15381573744563068}",Question Answering
+task1434_head_qa_classification,2528,6,"{'biology': 0.17721518987341772, 'pharmacology': 0.17563291139240506, 'chemistry': 0.1752373417721519, 'medicine': 0.17365506329113925, 'psychology': 0.15901898734177214, 'nursery': 0.13924050632911392}",Text Categorization
+task1439_doqa_cooking_isanswerable,2530,2,"{'Yes': 0.5, 'No': 0.5}",Answerability Classification
+task1442_doqa_movies_isanswerable,1879,2,"{'Yes': 0.7051623203831825, 'No': 0.29483767961681745}",Answerability Classification
+task1488_sarcasmdetection_headline_classification,504,2,"{'non-sarcastic': 0.5436507936507936, 'sarcastic': 0.45634920634920634}",Text Categorization
+task1495_adverse_drug_event_classification,1998,2,"{'adverse drug event': 0.5, 'non-adverse drug event': 0.5}",Text Categorization
+task1500_dstc3_classification,951,4,"{'Cheap': 0.2513144058885384, 'Expensive': 0.2502628811777077, 'Moderate': 0.2502628811777077, ""Don't Care"": 0.24815983175604628}",Dialogue State Tracking
+task1501_dstc3_answer_generation,1450,2,"{'No': 0.6779310344827586, 'Yes': 0.3220689655172414}",Dialogue State Tracking
+task1502_hatexplain_classification,5527,3,"{'Offensive': 0.3334539533200651, 'Normal': 0.33327302333996744, 'Hate Speech': 0.33327302333996744}",Toxic Language Detection
+task1503_hatexplain_classification,898,10,"{'Islam': 0.10022271714922049, 'Hispanic': 0.10022271714922049, 'Refugee': 0.10022271714922049, 'African': 0.10022271714922049, 'Asian': 0.10022271714922049, 'Women': 0.10022271714922049, 'Jewish': 0.10022271714922049, 'Arab': 0.10022271714922049, 'Caucasian': 0.09910913140311804, 'None': 0.09910913140311804}",Toxic Language Detection
+task1505_root09_semantic_relation_classification,3174,3,"{'RANDOM': 0.4914933837429111, 'COORD': 0.25645872715816004, 'HYPER': 0.2520478890989288}",Word Relation Classification
+task1516_imppres_naturallanguageinference,709,3,"{'neutral': 0.3342736248236953, 'positive': 0.3328631875881523, 'negated': 0.3328631875881523}",Textual Entailment
+task1517_limit_classfication,1996,2,"{'Yes': 0.500501002004008, 'No': 0.499498997995992}",Information Extraction
+task1529_scitail1.1_classification,5060,2,"{'neutral': 0.500197628458498, 'entails': 0.499802371541502}",Textual Entailment
+task1531_daily_dialog_type_classification,497,4,"{'information': 0.39436619718309857, 'question': 0.30181086519114686, 'directive': 0.1891348088531187, 'commissive': 0.11468812877263582}",Dialogue Act Recognition
+task1533_daily_dialog_formal_classification,6162,2,"{'informal': 0.6223628691983122, 'formal': 0.37763713080168776}",Dialogue Act Recognition
+task1534_daily_dialog_question_classification,6161,2,"{'0': 0.5020288914137315, '1': 0.4979711085862685}",Dialogue Act Recognition
+task1535_daily_dialog_uniqueness_classification,1100,2,"{'1': 0.5, '0': 0.5}",Sentiment Analysis
+task1536_daily_dialog_happiness_classification,6162,2,"{'0': 0.7330412203829926, '1': 0.2669587796170075}",Sentiment Analysis
+task1541_agnews_classification,3999,4,"{'1': 0.25006251562890724, '0': 0.25006251562890724, '2': 0.25006251562890724, '3': 0.24981245311327832}",Text Categorization
+task1548_wiqa_binary_classification,592,2,"{'  No  ': 0.660472972972973, '  Yes  ': 0.33952702702702703}",Sentence Ordering
+task1554_scitail_classification,6495,2,"{'neutral': 0.5003849114703618, 'entails': 0.4996150885296382}",Textual Entailment
+task1559_blimp_binary_classification,1000,2,"{'bad': 0.5, 'good': 0.5}",Linguistic Probing
+task1560_blimp_binary_classification,1000,2,"{'bad': 0.5, 'good': 0.5}",Linguistic Probing
+task1583_bless_meronym_classification,1481,2,"{'1': 0.5023632680621202, '0': 0.49763673193787983}",Word Relation Classification
+task1584_evalution_meronym_classification,1079,2,"{'1': 0.5023169601482854, '0': 0.4976830398517145}",Word Relation Classification
+task1587_scifact_classification,5000,2,"{'yes': 0.5, 'no': 0.5}",Text Matching
+task1589_scifact_classification,1576,2,"{'False': 0.5, 'True': 0.5}",Text Quality Evaluation
+task1592_yahoo_answers_topics_classfication,994,10,"{'2': 0.1006036217303823, '6': 0.1006036217303823, '8': 0.1006036217303823, '9': 0.1006036217303823, '0': 0.1006036217303823, '4': 0.09959758551307847, '5': 0.09959758551307847, '1': 0.09959758551307847, '7': 0.09959758551307847, '3': 0.09859154929577464}",Text Categorization
+task1593_yahoo_answers_topics_classification,993,10,"{'5': 0.10070493454179255, '7': 0.10070493454179255, '8': 0.10070493454179255, '9': 0.10070493454179255, '0': 0.10070493454179255, '4': 0.09969788519637462, '1': 0.09969788519637462, '2': 0.09969788519637462, '6': 0.0986908358509567, '3': 0.0986908358509567}",Text Categorization
+task1599_smcalflow_classification,3810,2,"{'user': 0.7296587926509186, 'agent': 0.27034120734908135}",Speaker Identification
+task1604_ethos_text_classification,998,2,"{'not hate': 0.5661322645290581, 'hate': 0.4338677354709419}",Toxic Language Detection
+task1612_sick_label_classification,1800,3,"{'2': 0.3333333333333333, '1': 0.3333333333333333, '0': 0.3333333333333333}",Textual Entailment
+task1615_sick_tclassify_b_relation_a,1797,3,"{'B_contradicts_A': 0.333889816360601, 'B_neutral_A': 0.3333333333333333, 'B_entails_A': 0.3327768503060657}",Textual Entailment
+task1623_disfl_qa_disfluent_question_classification,1480,2,"{'proper': 0.5, 'disfluent': 0.5}",Text Quality Evaluation
+task1624_disfl_qa_question_yesno_classification,1500,2,"{'No': 0.514, 'Yes': 0.486}",Answerability Classification
+task1630_openpi_classification,797,5,"{'Home and Garden': 0.27352572145545795, 'Food and Entertaining': 0.2685069008782936, 'Hobbies and Crafts': 0.24968632371392724, 'Sports and Fitness': 0.1480552070263488, 'Cars & Other Vehicles': 0.060225846925972396}",Text Categorization
+task1640_aqa1.0_answerable_unanswerable_question_classification,2648,2,"{'True': 0.5422960725075529, 'False': 0.45770392749244715}",Answerability Classification
+task1645_medical_question_pair_dataset_text_classification,2948,2,"{'Similar': 0.5, 'Dissimilar': 0.5}",Text Matching
+task1661_super_glue_classification,4000,2,"{'1': 0.5, '0': 0.5}",Question Answering
+task1712_poki_classification,6448,2,"{'elementary': 0.7200682382133995, 'high': 0.2799317617866005}",Text Categorization
+task1720_civil_comments_toxicity_classification,999,2,"{'No': 0.5005005005005005, 'Yes': 0.4994994994994995}",Toxic Language Detection
+task1721_civil_comments_obscenity_classification,999,2,"{'No': 0.5005005005005005, 'Yes': 0.4994994994994995}",Toxic Language Detection
+task1722_civil_comments_threat_classification,998,2,"{'Yes': 0.501002004008016, 'No': 0.49899799599198397}",Toxic Language Detection
+task1723_civil_comments_sexuallyexplicit_classification,995,2,"{'Yes': 0.5015075376884423, 'No': 0.4984924623115578}",Toxic Language Detection
+task1724_civil_comments_insult_classification,1000,2,"{'No': 0.5, 'Yes': 0.5}",Toxic Language Detection
+task1725_civil_comments_severtoxicity_classification,995,2,"{'No': 0.5005025125628141, 'Yes': 0.4994974874371859}",Toxic Language Detection
