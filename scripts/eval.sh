@@ -1,6 +1,6 @@
 #!/bin/csh
 
-setenv HF_TOKEN "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"
+setenv HF_TOKEN "INSERT_YOUR_TOKEN"
 setenv PROTOCOL_BUFFERS_PYTHON_IMPLEMENTATION "python"
 setenv WANDB_DISABLED "true"
 setenv PYTORCH_CUDA_ALLOC_CONF "expandable_segments:True"
