@@ -1,7 +1,7 @@
 # #!/bin/csh
 
 
-# setenv HF_TOKEN "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"
+# setenv HF_TOKEN "YOUR_TOKEN_HERE"
 
 # setenv PROTOCOL_BUFFERS_PYTHON_IMPLEMENTATION "python"
 # setenv WANDB_DISABLED "true"
@@ -40,7 +40,7 @@
 #!/bin/csh
 
 # Load Hugging Face token securely
-setenv HF_TOKEN "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"
+setenv HF_TOKEN "YOUR_TOKEN_HERE"
 setenv PROTOCOL_BUFFERS_PYTHON_IMPLEMENTATION "python"
 setenv WANDB_DISABLED "true"
 setenv PYTORCH_CUDA_ALLOC_CONF "expandable_segments:True"
