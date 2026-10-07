@@ -1,0 +1,20 @@
+{
+    "macro_f1":0.7286286257,
+    "rsd":0.279505,
+    "bias_score":0.1553211717,
+    "cc_macro_f1":0.7392485187,
+    "cc_rsd":0.2566956964,
+    "cc_bias_score":0.145160583,
+    "dc_macro_f1":0.6799854222,
+    "dc_rsd":0.3783961092,
+    "dc_bias_score":0.1989534538,
+    "looc_macro_f1":0.7320761292,
+    "looc_rsd":0.2433748234,
+    "looc_bias_score":0.1487163455,
+    "affine_macro_f1":0.7724376193,
+    "affine_rsd":0.1500062051,
+    "affine_bias_score":0.088756965,
+    "temp_macro_f1":0.7286286257,
+    "temp_rsd":0.279505,
+    "temp_bias_score":0.0951274827
+}

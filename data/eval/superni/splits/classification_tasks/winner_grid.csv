@@ -1,0 +1,11 @@
+,$K{=}2$,$K{=}3$-$5$,$K{=}6$-$8$,$K{\geq}9$
+Llama-3.2-3B,LOOC,DCC,DCC,DCC
+Llama-3.2-3B-Instruct,LOOC,LOOC,LOOC,DCC
+Phi-3.5-mini-instruct,LOOC,LOOC,DCC,CC
+Phi-3.5-MoE-instruct,LOOC,DCC,CC,CC
+Mixtral-8x7B-v0.1,LOOC,LOOC,LOOC,DCC
+Mixtral-8x7B-Instruct-v0.1,LOOC,LOOC,CC,CC
+Qwen2.5-32B,LOOC,LOOC,CC,DCC
+Qwen2.5-32B-Instruct,LOOC,LOOC,DCC,DCC
+DeepSeek-R1-Distill-Llama-8B,LOOC,LOOC,DCC,DCC
+DeepSeek-R1-Distill-Qwen-32B,LOOC,LOOC,DCC,CC
