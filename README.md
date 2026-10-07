@@ -30,13 +30,3 @@ python -m src.superni.run_completions_eval \
 
 `--num_pos_examples` sets the number of demonstrations (k). Set it to 4 to reproduce the demonstration budget experiment.
 
-## Citation
-
-```bibtex
-@inproceedings{anonymous2027labelbias,
-  title     = {Label Bias Calibration in LLMs Depends on Label-Space Size},
-  author    = {Anonymous},
-  booktitle = {Under review},
-  year      = {2027}
-}
-```
