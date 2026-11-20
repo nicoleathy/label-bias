@@ -1,6 +1,6 @@
-# Label Bias Calibration in LLMs Depends on Label-Space Size
+# Label Bias Calibration in LLMs: Choosing Calibration by Label-Space Size
 
-Code and results for the paper *Label Bias Calibration in LLMs Depends on Label-Space Size*.
+Code and results for the paper *Label Bias Calibration in LLMs: Choosing Calibration by Label-Space Size*.
 
 We compare three label-agnostic calibration methods for in-context classification:
 
