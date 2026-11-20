@@ -155,6 +155,7 @@ def edit_task_data_by_list(list_path, input_tasks_dir, output_tasks_dir):
     Takes a list of tasks and edits their data, saving it to a new path.
     """
     np.random.seed(42)
+    random.seed(42)  # fixes the order of evaluation instances
 
     with open(list_path, 'r') as fp:
         task_names = fp.read().split('\n')

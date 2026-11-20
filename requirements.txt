@@ -1,17 +1,14 @@
-torch
+# Python 3.11. Versions marked == are the ones reported in the paper.
+torch==2.4.*
+transformers==4.46.*
+accelerate>=0.26.0
+datasets>=2.14,<4.0   # the Super-NI loader is a dataset script; datasets 4.x removed script support
+huggingface_hub
+sentencepiece
+protobuf
+numpy
+pandas
 scipy
 scikit-learn
-packaging
-sentencepiece
-datasets
-accelerate>=0.21.0
-peft>=0.4.0
-bitsandbytes>=0.41.1
-evaluate>=0.4.0
-tokenizers>=0.13.3
-transformers
-protobuf
-jsonlines
-unidic-lite
-einops
-fire
+tqdm
+matplotlib   # analysis/make_figures.py only

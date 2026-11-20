@@ -10,7 +10,6 @@ import argparse
 import datasets
 from datasets import load_dataset
 import logging
-from huggingface_hub import login as hf_login
 from transformers import set_seed
 
 from src.superni.utils.ni_collator import DataCollatorForNI
@@ -44,19 +43,19 @@ def parse_args():
     parser.add_argument(
         "--data_dir",
         type=str,
-        default="data/eval/superni/splits/full_label_bias/",
+        default="data/eval/superni/splits/classification_tasks/",
         help="The directory for saving the NaturalInstructions train/dev/test splits."
     )
     parser.add_argument(
         "--task_dir",
         type=str,
-        default="data/eval/superni/edited_tasks_full/",
+        default="data/eval/superni/classification_tasks/",
         help="The directory for saving the NaturalInstructions tasks."
     )
     parser.add_argument(
         "--output_dir",
         type=str,
-        default="runs/mistralai/Mistral-7B-v0.1/superni/0_shots/",
+        default="runs/Mistral-7B-v0.1/8_shots/",
         help="The directory for output"
     )
 
